@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Código QR</title>
+</head>
+
+<body>
+    <h1>Generar Código QR</h1>
+    <form action="/generar_qr" method="POST">
+         <label for="data">Nombre:</label> 
+         <input type="text" id="nombre" name="data" required> <br>
+         <label for="data1">Apellido Paterno:</label><br> 
+         <input type="text" id="Ap" name="data1" required> <br>
+         <label for="data2">Apellido Materno:</label> <br>
+         <input type="text" id="Am" name="data2" required> <br>
+         <label for="data3">Numero de control:</label> <br>
+         <input type="text" id="NumCon" name="data3" required> <br>
+         <label for="data4">tipo de sangre:</label> <br>
+         <input type="text" id="sangre" name="data4" required> <br> 
+         <label for="data5">NSS:</label> <br>
+         <input type="text" id="nss" name="data5" required><br> 
+         <label for="data6">Contacto:</label> <br>
+         <input type="tel" id="contacto" name="data6" required><br> 
+        <button type="submit">Generar QR</button> </form>
+</body>
+
+</html>
